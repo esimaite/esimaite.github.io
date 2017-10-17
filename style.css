@@ -1,0 +1,63 @@
+#content {
+	font-family: GeosansLight;
+	text-align: center;
+	font-size: 20px;
+}
+
+#homeimage {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#buttons a {
+	font-family: GeosansLight;
+	top: 50px;
+	font-size: 35px;
+	text-decoration: none;
+	padding: 8px 16px;
+	color: black;	
+}
+
+#message {
+	height: 100px;
+	width: 167px;
+}
+
+#footer {
+	color: #3D2B1F;
+	font-size: 15px;
+	
+}
+	
+
+a:hover {
+    color: white;
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.border {
+	border-style: none;
+	border-width: 1px;
+	color: #3D2B1F;
+	margin: 60px;
+	margin-right: 250px;
+	margin-left: 250px;
+	padding-bottom: 80px;
+	padding-top: 30px;
+	background-color: #F5F5DC;
+	
+}
+
+.active {
+	padding-top: 20px;
+	font-weight: bold;
+    background-color: #F5F5DC;
+}
+
+
+	
+ 

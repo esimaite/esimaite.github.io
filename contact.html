@@ -1,0 +1,45 @@
+<?php
+if($_POST["message"]) {
+    mail("esimait15@students.lcc.lt", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
+<!doctype html>
+<html>
+
+<head>
+  <title>Emilija Simaite</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <div id="buttons" class="center">
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">About</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+  </nav>
+<div id="content" class="border"> 
+ <h1>CONTACT ME</h1>
+
+<form id="form" class="topBefore">
+		
+		  <input id="name" type="text" placeholder="NAME"></br>
+		  <input id="email" type="text" placeholder="E-MAIL"></br></br>
+		  <textarea id="message" type="text" placeholder="MESSAGE"></textarea></br>
+          <input id="submit" type="submit" value="GO!">
+  
+</form>
+  <div>
+    </br><a href="https://www.facebook.com/simaite" title="My Facebook Page"> <img src="fblogo.png" height="50"></a>
+  </div>
+</div>
+
+  <div id="footer">
+    <p> &copy; Emilija Simaite, 2017 </p>
+  </div>
+
+</body>
+</html>
